@@ -1,76 +1,88 @@
-# FlyF 🚀 - 跨平台AI效率开发工具（开发中）
+# FlyF 🚀 - Cross-Platform AI Efficiency Development Tool (Under Development)
 
-**让AI开发触手可及 | 开发者首选 | 小白友好 | 全场景覆盖**
+**让AI开发触手可及 | 开发者首选 | 小白友好 | 全场景覆盖**  
+**Making AI Development Accessible | Developers' Choice | Beginner-Friendly | Full Scenario Coverage**
 
-
-👉 *项目正在积极开发中（2024年3月15日立项），欢迎参与早期共建！*  
-📧 联系邮箱：flyf@94209420.xyz
-
----
-
-## 🌟 核心亮点
-
-### 🛠️ 开发者友好
-- 🤖 **OpenAI全兼容**：无缝对接GPT系列及兼容API
-- ⚡ **智能工作流引擎**：自动化测试/部署一键完成
-- 🧩 **模块化设计**：自由组合AI功能组件
-
-### 🌐 跨平台支持
-- 🖥️ **全平台原生支持**：Windows/Linux/macOS 完美运行
-- ☁️ **云端/本地双模式**：灵活切换开发环境
-
-### 🚀 极简体验
-- 📦 **一行安装**：`pip install flyf[all]`
-- 🎯 **零配置启动**：内置免费API测试密钥
-- 🌈 **可视化WebUI**：浏览器即享AI能力
+👉 *Project under active development (since March 15, 2024), welcome to join early-stage co-creation!*  
+📧 Contact: flyf@94209420.xyz
 
 ---
 
-## 🚧 开发路线
-| 里程碑            | 时间线     | 状态       |
+## 🌟 Core Features / 核心亮点
+
+### 🛠️ Developer-Friendly / 开发者友好
+- 🤖 **Full OpenAI Compatibility**: Seamless integration with GPT series and compatible APIs  
+  **OpenAI全兼容**: 无缝对接GPT系列及兼容API
+- ⚡ **Smart Workflow Engine**: One-click automated testing/deployment  
+  **智能工作流引擎**: 自动化测试/部署一键完成
+- 🧩 **Modular Design**: Freely combine AI components  
+  **模块化设计**: 自由组合AI功能组件
+
+### 🌐 Cross-Platform Support / 跨平台支持
+- 🖥️ **Native Multi-Platform**: Perfectly runs on Windows/Linux/macOS  
+  **全平台原生支持**: Windows/Linux/macOS 完美运行
+- ☁️ **Cloud/Local Dual Mode**: Flexible environment switching  
+  **云端/本地双模式**: 灵活切换开发环境
+
+### 🚀 Minimalist Experience / 极简体验
+- 📦 **One-Line Install**: `pip install flyf[all]`  
+  **一行安装**: 同上
+- 🎯 **Zero-Config Startup**: Built-in free API trial key  
+  **零配置启动**: 内置免费API测试密钥
+- 🌈 **Visual WebUI**: Access AI power via browser  
+  **可视化WebUI**: 浏览器即享AI能力
+
+---
+
+## 🚧 Development Roadmap / 开发路线
+| Milestone          | Timeline   | Status     |
 |--------------------|------------|------------|
-| 项目立项           | 2025.03.15 | ✅ 已完成   |
-| 核心框架开发       | 2025.Q3    | 🚧 进行中   |
-| 首个稳定版发布     | 2025.Q4    | ⌛ 规划中   |
-
+| Project Initiation | 2025.03.15 | ✅ Completed |
+| Core Framework     | 2025.Q3    | 🚧 Ongoing  |
+| First Stable Release | 2025.Q4  | ⌛ Planned  |
 
 ---
 
-## 🚀 快速开始
-### 安装指南
+## 🚀 Quick Start / 快速开始
+
+### Installation / 安装指南
 ```bash
-# 基础功能安装
+# Basic installation
 pip install flyf
 
-# 完整版（含WebUI）
+# Full version (with WebUI)
 pip install flyf[all]
 ```
 
-### 3行代码体验
+### 3-Line Demo / 3行代码体验
 ```python
-from flyf import iChat
+from flyf import FlyAI
 
-assistant = FlyAI(api_key="free_trial_key")  # 使用内置测试密钥
-print(assistant.chat("用Python实现快速排序"))
+assistant = FlyAI(api_key="free_trial_key")  # Using built-in trial key
+print(assistant.chat("Implement quicksort in Python"))
 ```
 
-### 启动Web界面
+### Launch Web Interface / 启动Web界面
 ```bash
 flyf web --port 8000
 ```
-访问 ➡️ `http://localhost:8000` 开启可视化交互
+Visit ➡️ `http://localhost:8000`
 
 ---
 
-## 🤝 参与共建
+## 🤝 Contribution / 参与共建
 
-### 贡献方式
-1. 🐛 [提交Issue](https://github.com/AiFLYF/FLYF/issues) 报告问题/建议新功能
-2. 🔧 Fork仓库提交PR（注明关联的Issue编号）
-3. 📊 发送测试报告至 flyf@94209420.xyz
+### How to Contribute / 贡献方式
+1. 🐛 [Submit Issues](https://github.com/AiFLYF/FLYF/issues)  
+   [提交Issue](https://github.com/AiFLYF/FLYF/issues) 报告问题/建议
+2. 🔧 Fork repo & submit PR (mention related Issue)  
+   Fork仓库提交PR（注明关联Issue）
+3. 📊 Send test reports to flyf@94209420.xyz  
+   发送测试报告至邮箱
 
 ---
 
-## 📜 开源协议
-本项目基于 [MIT License](LICENSE) 开源，版权归 FlyF 贡献者所有。  
-📌 *注意：开发版API可能发生变化，生产环境请等待稳定版本*
+## 📜 License / 开源协议
+[MIT License](LICENSE) | 本项目基于MIT协议开源  
+⚠️ *Note: APIs in development may change, wait for stable release for production*  
+*开发版API可能发生变化，生产环境请等待稳定版本*
