@@ -3,7 +3,7 @@
 **让AI开发触手可及 | 开发者首选 | 小白友好 | 全场景覆盖**  
 **Making AI Development Accessible | Developers' Choice | Beginner-Friendly | Full Scenario Coverage**
 
-👉 *Project under active development (since March 15, 2024), welcome to join early-stage co-creation!*  
+👉 *Project under active development (since March 15, 2025), welcome to join early-stage co-creation!*  
 📧 Contact: flyf@94209420.xyz
 
 ---
