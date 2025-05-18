@@ -82,7 +82,7 @@ Visit ➡️ `http://localhost:8000`
 
 ---
 
-## 📜 License / 开源协议
-[MIT License](LICENSE) | 本项目基于MIT协议开源  
+## 📜 License / 开源协议  
+[Apache License 2.0](LICENSE) | 本项目基于Apache-2.0协议开源  
 ⚠️ *Note: APIs in development may change, wait for stable release for production*  
-*开发版API可能发生变化，生产环境请等待稳定版本*
+*开发版API可能发生变化，生产环境请等待稳定版本*  
